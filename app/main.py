@@ -37,6 +37,7 @@ def reduccion_data(data_reduc):
 
 cordenadas = reduccion_data(data)
 k,v = cordenadas
-Ch.generate_bar_charts(k,v)
-
+name = input('Nombre para guardar el archivo => ')
+Ch.generate_bar_charts(name,k,v)
+Ch.generate_pie_chart(k,v)
 

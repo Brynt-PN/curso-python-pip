@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt# Con AS podemos renombrar la
 # libreria para no escribir un nombre muy largo, en este caso
 # la renombramos PLT.
 
-def generate_bar_charts(eje_x,eje_y):# Creamos una funcion para
+def generate_bar_charts(name,eje_x,eje_y):# Creamos una funcion para
     # ejecutar los graficos.
     # Definimos cordenadas del eje X
     # Tambien las del eje Y
@@ -23,7 +23,7 @@ def generate_bar_charts(eje_x,eje_y):# Creamos una funcion para
     # en el OBJETO CORDENADAS indicamos que queremos crear
     # un grafico de barras, nos solicitara 2 argumentos
     # valores para el eje x,y.
-    plt.savefig('bar.png')
+    plt.savefig(f'Img/{name}.png')
     plt.close()
 
 def generate_pie_chart(encabesado,valor):
@@ -35,7 +35,7 @@ def generate_pie_chart(encabesado,valor):
     # LABELS eh igualarlo a lo que serina los encabesados.
     cordenadas.axis('equal')# Definimos que haga el grafricco en 
     # el centro.
-    plt.savefig('pie.png')
+    plt.savefig('Img/pie.png')
     plt.close()
     
 

@@ -5,6 +5,7 @@ import Read_csv_Dic as rd
 def run():
     data = rd.read_csv('Data.csv')
     #print(data)
+    country = ''
     while True:
         country = input('Ingresa el pais => ')  # Zimbabwe
         data_country = md.population_of_country(data,country)
@@ -16,7 +17,7 @@ def run():
     x , y = md.get_populations(data_country)
         #print(x)
         #print(y)
-    ch.generate_bar_charts(x,y)
+    ch.generate_bar_charts(country,x,y)
 
 if __name__ == '__main__':
     run()
