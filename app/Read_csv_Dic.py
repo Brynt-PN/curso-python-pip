@@ -27,7 +27,7 @@ def read_csv(f):
         # que este RETURN este afuera del FOR
 
 if __name__ == '__main__':
-    data = read_csv('app/Data.csv')# Cuando se ejecute guardara
+    data = read_csv('Data.csv')# Cuando se ejecute guardara
     # el contenido de la función (RETURN BD) en una variable DATA
     print(data[0])# Podemos imprimir el contenido seta todos o 
     # solo uno de los datos.

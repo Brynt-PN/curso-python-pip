@@ -34,4 +34,4 @@ if __name__ == '__main__':
     # encuentra el archivo da clic en la ruta y cuando se
     # seleccione escribe "cmd" y da ENTER, se abrira el CMD
     # luego digita "code ." y da ENTER.
-    read_csv('app/Data.csv')
+    read_csv('Data.csv')

@@ -1,7 +1,7 @@
 import Read_csv_Dic as rd
 import Charts as Ch
 
-data = rd.read_csv('app/Data.csv')
+data = rd.read_csv('Data.csv')
 años = ['2022 Population',
         '2020 Population',
         '2015 Population',

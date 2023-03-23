@@ -3,7 +3,7 @@ import Charts as ch
 import Read_csv_Dic as rd
 
 def run():
-    data = rd.read_csv('app/Data.csv')
+    data = rd.read_csv('Data.csv')
     #print(data)
     while True:
         country = input('Ingresa el pais => ')  # Zimbabwe
