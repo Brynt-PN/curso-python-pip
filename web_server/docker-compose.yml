@@ -1,0 +1,11 @@
+# IMPORTANTE: El archivo se debe llamar exactamente ('docker-compose.yml') sino no lo reconocera
+
+services:
+  web-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app # Es para conectar los cambios a el contenedor
+    ports:
+      - '80:80'
