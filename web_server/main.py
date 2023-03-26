@@ -3,7 +3,7 @@ from fastapi import FastAPI #Si estando en un entorno virtual ENV_ no te lee el 
 from fastapi.responses import HTMLResponse #Importamos esta dependencia para devolver HTML en nuestro servido.
 
 
-app = FastAPI() #Creamos una instacia de la APP (nombre de la app)
+app = FastAPI() #Creamos una instacia de la APP (Es crear un objeto en base a una Clase, consultar la POO)
 #OBS: Luego en la termina usaremos UVICOR para lanzar nuestro servidor a internet usando la siguiente sintaxis.
 # UVICORN MAIN:APP --RELOAD
 # (COMANDO)-(NOMBRE DEL ARCHIVO Y NOMBRE DE LA APP)-(REGLA DEL COMANDO)
