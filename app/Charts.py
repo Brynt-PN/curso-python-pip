@@ -46,6 +46,8 @@ if __name__ == '__main__':
     generate_bar_charts(eje_x,eje_y)
     generate_pie_chart(eje_x,eje_y)
 
+# Este comentario se actualizo :)
+
 
 
 

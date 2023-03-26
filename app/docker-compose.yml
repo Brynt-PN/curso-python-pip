@@ -1,0 +1,14 @@
+# IMPORTANTE: El archivo se debe llamar exactamente ('docker-compose.yml') sino no lo reconocera
+
+services:
+  # Aperturamos un servicio
+  app-csv:
+    # Le pasamos un nombre
+    build:
+      # Aqui le indicamos que construya el contenedor
+      context: .
+        # Con ('.') indicamos que lo cree en esta carpeta
+      dockerfile: Dockerfile
+        # Que el DOCKERFILE es el archivo Dokerfile
+    volumes:
+      - .:/app
